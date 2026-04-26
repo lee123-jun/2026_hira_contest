@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:/lap/hira_contest/docs/superpowers/plans\")",
+      "Bash(mkdir -p \"C:/lap/hira_contest/src\")",
+      "Bash(mkdir -p \"C:/lap/hira_contest/analysis\")",
+      "Bash(mkdir -p \"C:/lap/hira_contest/output/figures\")",
+      "Bash(mkdir -p \"C:/lap/hira_contest/output/results\")",
+      "Bash(pip install *)",
+      "Bash(python analysis/phase1_eda.py)",
+      "Bash(python -c ' *)",
+      "Bash(python analysis/phase2_amai.py)",
+      "Bash(python analysis/phase3_forecast.py)",
+      "Bash(python analysis/phase4_policy.py)",
+      "mcp__codebase-memory-mcp__list_projects",
+      "mcp__codebase-memory-mcp__index_repository",
+      "mcp__codebase-memory-mcp__get_architecture",
+      "mcp__codebase-memory-mcp__manage_adr"
+    ]
+  }
+}
